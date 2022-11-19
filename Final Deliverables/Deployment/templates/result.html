@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+<script src="https://kit.fontawesome.com/66cfa4dafa.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="../static/css/style2.css">
+
+  
+</head>
+
+<body>
+
+ <section>
+  <header>
+ <div class="mainheader">
+  <div class="logo">
+   <img src="../static/images/logo.png">
+  </div>
+
+  <nav>
+   <a href="http://127.0.0.1:5000">home</a>   
+   <a href="http://127.0.0.1:5000#hlo">About</a>
+  </nav>
+ <div class="menubtn">
+  <a href="/prediction_form"> <button> Predict</button></a>
+  </div>
+ </div>
+</header>
+</section>
+
+ 
+<section>
+  <div class="healthy">  
+    {% if result == 1 %}
+    <img src="{{url_for('static',filename='Images/unhealthy.jpeg')}}" alt="damage" >
+    {% elif result == 2 %}
+    <img src="{{url_for('static',filename='Images/healthy.jpeg')}}" alt="healthy">
+    {% endif %} 
+   </div>
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+<script src="https://kit.fontawesome.com/66cfa4dafa.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="../static/css/style1.css">
+
+  
+</head>
+
+<body>
+
+ <section>
+  <header>
+ <div class="mainheader">
+  <div class="logo">
+   <img src="../static/images/logo.png">
+  </div>
+
+  <nav>
+   <a href="http://127.0.0.1:5000">home</a>   
+   <a href="http://127.0.0.1:5000#hlo" >About</a>
+  </nav>
+ </div>
+</section>
+
+  <div class="signupSection">
+  <div class="info">
+    <h2>Mission to Diagnose Earlier</h2>
+   <div class="logo">
+   <img src="../static/images/logo_2.svg">
+  </div>
+    <p>The Future Is Here</p>
+  </div>
+  <form action="/predict" method="POST" class="signupForm" name="signupform">
+    <h2>Liver Disease Prediction</h2>
+    <ul class="noBullet">
+      <li >
+        <label for="Age"></label>
+        <input type="number" class="inputFields" id="Age" name="Age" placeholder="Age" value="" oninput="return userNameValidation(this.value)" required/>
+      
+        <label for="Gender"></label>
+        <input type="number" class="inputFields" id="Gender" name="Gender" placeholder="Enter 1 for male, 0 for female" value="" oninput="return passwordValidation(this.value)" required/>
+      </li>
+      <li>
+        <label for="Direct Bilirubin"></label>
+        <input type="number" step=0.1 class="inputFields" id="Total_Bilirubin" name="Total_Bilirubin" placeholder="Total Bilirubin" value="" required/>
+      
+        <label for="Total Bilirubin"></label>
+        <input type="number" step=0.01 class="inputFields" id="Direct_Bilirubin" name="Direct_Bilirubin" placeholder="Direct Bilirubin" value="" required/>
+    </li>
+     <li>
+        <label for="Alkaline phosphatase"></label>
+        <input type="number" class="inputFields" id="Alkaline_phosphatase" name="Alkaline_phosphatase" placeholder="Alkaline Phosphatase" value="" required/>
+     
+        <label for="Alamine Aminotransferase"></label>
+        <input type="number" class="inputFields" id="Alamine_Aminotransferase" name="Alamine_Aminotransferase" placeholder="Alamine Aminotransferase" value="" required/>
+       </li>
+       <li>
+        <label for="Aspartate Aminotranferase"></label>
+        <input type="number" class="inputFields" id="Aspartate_Aminotranferase" name="Aspartate_Aminotranferase" placeholder="Aspartate Aminotranferase" value="" required/>
+      
+        <label for="Albumin"></label>
+        <input type="number" step=0.1 class="inputFields" id="Albumin" name="Albumin" placeholder="Albumin" value="" required/>
+      </li>
+     <li>
+        <label for="Total Proteins"></label>
+        <input type="number" step =0.1 class="inputFields" id="Total_Proteins" name="Total_Proteins" placeholder="Total Proteins" value="" required/>
+      
+        <label for="Albumin and Globulin Ratio"></label>
+        <input type="number" step=0.1 class="inputFields" id="Albumin_and_Globulin_Ratio" name="Albumin_and_Globulin_Ratio" placeholder="Albumin and Globulin Ratio" value="" required/>
+      </li>
+     
+      <li id="center-btn">
+        <input type="submit" id="predict-btn" name="predict" alt="Predict" value="Predict">
+      </li>
+    </ul>
+  </form>
+</div>
+ <script src="../static/js/index.js"></script>
+
+</body>
+
+</html>
