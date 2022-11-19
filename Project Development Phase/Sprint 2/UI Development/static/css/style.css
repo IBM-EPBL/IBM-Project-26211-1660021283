@@ -1,0 +1,222 @@
+*{
+margin: 0; padding: 0;
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+ width: 100%;
+ height: 100vh;
+ background-image: url('../images/bd.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+
+.mainheader{
+ width: 100%;
+ height: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.mainheader .logo img{
+ width: 250px; height: 100px;
+ padding-left: 60px;
+}
+
+.mainheader nav{
+ width: 450px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.mainheader nav a{
+ text-decoration: none;
+ color: black;
+ text-transform: uppercase;
+}
+
+.menubtn{
+ margin-right: 60px;
+}
+.mainheader button{
+ padding: 10px 45px;
+ text-align: center;
+ font-size: 14px;
+ color: #fff;
+ border: none;
+ background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+ border-radius: 10px;
+}
+
+
+main{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+main .right-sec{
+ padding-right: 70px;
+}
+
+main .right-sec img{
+ width: 680px;
+}
+
+main .left-sec{
+ padding-left: 100px;
+}
+
+.left-sec h2{
+ font-size: 20px;
+ text-transform: capitalize;
+ font-weight: lighter;
+ color: #242424;
+ margin-top: 100px;
+}
+
+.left-sec h1{
+ font-size: 55px;
+ text-transform: capitalize;
+ font-weight: 700;
+ margin: 15px 0;
+}
+
+.left-sec p{
+ margin-bottom: 20px;
+}
+
+.left-sec button{
+ padding: 15px 45px;
+ text-align: center;
+ font-size: 14px;
+ color: #fff;
+ border: none;
+ background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+ border-radius: 10px;
+}
+.about{
+    width:100%;
+    padding: 78px ;
+    background-color:#fff;
+}
+.about img{
+    height:400px;
+    border-radius:50%;
+    width:500px;
+    padding-left:0px;
+       
+}
+.about-text{
+     width:750px;
+     padding-left: 40px;
+ }
+.main-about{
+     width:100%;
+     max-width:95%;
+     margin:0 auto;
+     display:flex;
+     align-items: center;
+     
+}
+.about-text h1{
+   color:#000;
+   font-size:80px;
+   text-transform:capitalize;
+   margin-bottom:20px;
+}
+.about-text h5{
+   color:#000;
+   font-size:25px;
+   text-transform:capitalize;
+   margin-bottom:25px;
+   letter-spacing:2px;
+}
+span{
+   color: #f9004d;
+}
+.about-text p{
+  color:#000;
+  letter-spacing:1px;
+  line-height:28px;
+  font-size:18px;
+  margin-bottom:45px;
+}
+
+.service{
+  background:#fff;
+  width:100%;
+  padding: 100px 0px;
+}
+.service1{
+  background:#fff;
+  width:100%;
+  padding: 10px 0px;
+}
+.title h2{
+  color:#000;
+  font-size:75px;
+  width:1130px;
+  margin:30px auto;
+  text-align:center;
+}
+.box{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:400px;
+}
+.card{
+  height:700px;
+  width:470px;
+  padding:20px;
+  background-image: repeating-conic-gradient(#e7feff ,#e0ffff,#e7feff,#fff,#e7feff,#e7feff,#e0ffff,#fff,#e7feff );
+  border-radius:20px;
+  margin:15px;
+  position:relative;
+  overflow:hidden;
+  text-align:center;
+}
+
+.card i{
+  font-size:50px;
+  display:block;
+  text-align:center;
+  margin: 25px 0px;
+  color:#0070fa;
+}
+h5{
+  color:#000;
+  font-size:23px;
+  margin-bottom:15px;
+}
+
+.pra p{
+  color:#000;
+  font-size:16px;
+  line-height:27px;
+  margin-bottom:25px;
+}
+  
+.card .button{
+  background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+  color:white;
+  text-decoration:none;
+  border:2px solid transparent;
+  font-weight:bold;
+  padding:9px 22px;
+  border-radius: 30px;
+  transition:.4s;
+}
+
+.card .button:hover{
+  background-image:linear-gradient(to right,#e7feff ,#e0ffff,#e7feff);
+  border:2px solid #0070fa;
+  color:#000;
+  cursor:pointer;
+}
