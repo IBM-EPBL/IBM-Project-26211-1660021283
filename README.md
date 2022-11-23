@@ -2,7 +2,7 @@
 
 <html>
 
-  <p>Statistical Machine Learning Approaches to Liver Disease Prediction</p>
+  <h2>Statistical Machine Learning Approaches to Liver Disease Prediction</h2>
 
 
 <a href="https://drive.google.com/file/d/1wOmXct0U9o3tySK0xYf15OvdDishXR_y/view">Project Demonstration Link</a>
@@ -14,7 +14,6 @@
 <p>Anithashree V - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%202">412519205011</a></p>
 <p>Lavanya M - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%203">412519205073</a></p><br/>
 
- <p>Project Design and Planning</p>
-  <p>&emsp;<a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Project%20Design%20%26%20Planning/Ideation%20Phase">Project Ideation Phase</a></p>
+
 
 
