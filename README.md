@@ -15,6 +15,6 @@
 <p>Lavanya M - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%203">412519205073</a></p><br/>
 
  <p>Project Design and Planning</p>
-  <p>emsp&;<a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Project%20Design%20%26%20Planning/Ideation%20Phase">Project Ideation Phase</a></p>
+  <p>&emsp;<a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Project%20Design%20%26%20Planning/Ideation%20Phase">Project Ideation Phase</a></p>
 
 
