@@ -10,7 +10,7 @@
 <p>Team Members:</p><br/>
 
 <p>Anupama Jeyashree S - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Lead">412519205012</a></p>
-<p>Parvathi Priya Nandana - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%201">412519205098</a></p>
+<p>Parvathi Priya Nandana K M - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%201">412519205098</a></p>
 <p>Anithashree V - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%202">412519205011</a></p>
 <p>Lavanya M - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%203">412519205073</a></p><br/>
 
