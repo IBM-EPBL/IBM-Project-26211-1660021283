@@ -5,9 +5,9 @@
   <h2>Statistical Machine Learning Approaches to Liver Disease Prediction</h2>
 
 
-<a href="https://drive.google.com/file/d/1wOmXct0U9o3tySK0xYf15OvdDishXR_y/view">Project Demonstration Link</a>
+<a href="https://drive.google.com/file/d/1wOmXct0U9o3tySK0xYf15OvdDishXR_y/view">Project Demonstration Link</a><br/>
 
-<p>Team Members:</p><br/>
+<h4>Team Members:</h4>
 
 <p>Anupama Jeyashree S - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Lead">412519205012</a></p>
 <p>Parvathi Priya Nandana K M - <a href="https://github.com/IBM-EPBL/IBM-Project-26211-1660021283/tree/main/Assignment_1/Team%20Member%201">412519205098</a></p>
